@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.JusticeQuest" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Core Colors -->
+        <item name="colorPrimary">@color/orange_400</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/orange_300</item>
+
+        <item name="colorSecondary">@color/orange_300</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="colorSurface">@color/orange_400</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
+
+        <item name="android:statusBarColor">@color/orange_400</item>
+        <item name="android:navigationBarColor">@color/orange_400</item>
+
+        <item name="colorControlHighlight">@color/orange_200</item>
+
+        <item name="colorError">@color/red_500</item>
+
+
+        <item name="simpleItemSelectedColor">@color/orange_400</item>
+        <item name="android:selectableItemBackground">@color/orange_100</item>
+
+    </style>
+
+    <style name="Theme.JusticeQuest" parent="Base.Theme.JusticeQuest" />
+</resources>
